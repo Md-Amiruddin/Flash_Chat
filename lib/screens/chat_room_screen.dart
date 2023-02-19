@@ -56,9 +56,11 @@ class _ChatRoomScreenState extends State<ChatRoomScreen> {
             listOfChats.add(ChatTile(email: user.id,));
           }
 
-          return ListView(
+          return listOfChats.isNotEmpty
+          ? ListView(
             children: listOfChats,
-          );
+          )
+              : Center(child: Text('Tap on the + button to start a chat'),);
         },
       ),
     );
