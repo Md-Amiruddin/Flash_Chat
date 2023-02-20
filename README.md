@@ -3,9 +3,9 @@ A modern multi-platform real-time messaging app where users can sign up and log 
 
 # Preview
 ## Front-End in Flutter
-<p align="center">
-  <img src="https://github.com/Md-Amiruddin/Flash_Chat/blob/main/Landing_page_media/Flash_chat_preview.gif" width="270" height="600" />
-</p>
+<div align="center">
+  <video src="https://user-images.githubusercontent.com/87572877/220149403-722fef74-47b8-49c1-8473-6f098941afa7.mp4"/>
+</div>
 
 ## Backend structure in firebase
 <p align="center">
